@@ -90,7 +90,8 @@ flex-wrap:wrap;  }
 }
 
 .column1{
-    flex:50%;}
+    flex:50%;
+padding-bottom: 30px}
 
 
 h3{
@@ -102,7 +103,8 @@ h3{
     color: #646363;
     text-align: center; 
 }
-ul {
+
+.column1 ul {
     list-style: none;
     background: #ffff;
     border-radius: 40px;
