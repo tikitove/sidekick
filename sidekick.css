@@ -38,7 +38,7 @@ img.superhero{
 h1{
   font-family: 'Playfair Display SC', georgia, serif;
 font-weight: 700;
-    font-size: 3em;
+    font-size: 2.5em;
 font-style: italic;
     text-transform: uppercase;
 text-align: center;
@@ -78,10 +78,8 @@ img.boll{
   .row {
 flex-wrap:wrap;  }
 }
-media only screen and (max-width: 640px) {
-  .ul {
-  }
-}
+
+
 .row{
     display:flex;
     max-width: 85%;
@@ -127,7 +125,7 @@ h2{
     text-transform: uppercase;
     font-style: italic;
     font-size: 1.5em;
-    color: #ffffff;
+    color: #7d3b6d;
     text-align: center;
     padding: 0 ;
 
