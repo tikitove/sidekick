@@ -1,0 +1,164 @@
+/* Tove Svensson / tove@mossbylund.se*/
+
+html body {
+  
+    font-family: 'century gothic', helvetica, serif;
+    color:#646363;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+
+    
+
+}
+/* header */
+header {
+    background-image: url(img/himmelSV.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    padding-bottom: 100px
+}
+ 
+img.superhero{
+ width: 100%;    
+}
+
+  
+/* innehåll */
+
+        
+.sidekick {
+    max-width: 640px;
+    margin: 0 auto !important;
+    background-color: #ffffff;
+
+    }
+h1{
+  font-family: 'Playfair Display SC', georgia, serif;
+font-weight: 700;
+    font-size: 3em;
+font-style: italic;
+    text-transform: uppercase;
+text-align: center;
+padding: 0px;
+}
+
+.sidekick p{
+    margin-bottom: 200px;
+    
+}
+
+.wrapper {
+    
+    background: #F9E8F7;
+    color: #646363;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px
+
+}
+    
+img.boll{
+    height: 300px;
+    margin-top: -170px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #646363;
+}
+
+.bollplank{
+display: flex;
+    padding-bottom: 30px;
+}
+.column1 {
+    flex: 50%;
+    padding: 20px;
+    align-content: center;
+}
+
+h3{
+  font-family: 'Playfair Display SC', georgia, serif;
+    font-size: 
+        1.5em;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #646363;
+    text-align: center; 
+}
+ul.column1 {
+    list-style: none;
+    background: #ffff;
+    border-radius: 40px;
+    margin: 100px 20px ;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 400px}
+
+.skrivbord {
+    background-image: url(img/skrivbord.JPEG);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 200px 0 ;
+    background-color: #d6ede8;
+  
+}
+h2{
+  font-family: 'Playfair Display SC', georgia, serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 ;
+
+}
+.wrapper2 {
+    
+    background: #646363;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px
+
+}
+.wrapper2 h3{
+    color: #ffffff;
+}
+.tikitove{
+    display: block;
+    max-width: 640px;
+    margin: 0 auto !important;
+}
+img.icon{
+    height: 400px;
+    margin-top: -250px;
+    float: right;
+}
+
+.bilder {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.column2{
+    flex:33%;
+    max-width: 33%;
+    padding: 0;
+    
+}
+.column2 img {
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+a {  text-decoration: none;
+color: #F9E8F7}
+a:hover {
+    text-decoration: underline;
+}
