@@ -117,7 +117,7 @@ h3{
 .skrivbord {
     background-image: url(img/skrivbord.JPEG);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center top;
     padding: 300px 0 ;
   
