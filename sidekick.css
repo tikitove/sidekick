@@ -30,7 +30,7 @@ img.superhero{
 
         
 .sidekick {
-    max-width: 640px;
+    max-width: 650px;
     margin: 0 auto !important;
     background-color: #ffffff;
 
@@ -68,15 +68,23 @@ img.boll{
     border-bottom: 3px solid #646363;
     overflow: hidden;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   img.boll {
     height: 150px;
     margin-top: -100px;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .row {
-flex-wrap:wrap;  }
+flex-wrap:wrap;
+}
+    .column1 {
+    margin:0;
+    max-width: 100%;}
+    .wrapper{
+    padding: 0;
+
+    }
 }
 
 
@@ -154,12 +162,24 @@ img.icon{
     margin-top: -250px;
     float: right;
 }
-
+@media only screen and (max-width: 650px) {
+  .bilder {
+flex-wrap: nowrap;
+}
+}
 .bilder {
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
+    
    
+}
+.column2 img{
+    filter: grayscale(100%);
+	transition: .3s ease-in-out;
+}
+
+.column2:hover img{	filter: grayscale(0);
 }
 
 .column2{
