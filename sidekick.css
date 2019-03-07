@@ -26,7 +26,7 @@ img.superhero{
 }
 
   
-/* innehåll */
+/* intro */
 
         
 .sidekick {
@@ -50,7 +50,7 @@ padding: 0px;
     padding: 0 20px;
     
 }
-
+/* bollplank */
 .wrapper {
     
     background: #F9E8F7;
@@ -122,6 +122,8 @@ h3{
     line-height: 1.;
     max-width: 400px}
 
+
+/* skrivbord */
 .skrivbord {
     background-image: url(img/skrivbord.JPEG);
     background-repeat: no-repeat;
@@ -140,6 +142,10 @@ h2{
     padding: 0 ;
 
 }
+
+h2 a {  text-decoration: none;
+color: #7d3b6d}
+
 .wrapper2 {
     
     background: #646363;
@@ -162,11 +168,7 @@ img.icon{
     margin-top: -250px;
     float: right;
 }
-@media only screen and (max-width: 650px) {
-  .bilder {
-flex-wrap: nowrap;
-}
-}
+
 .bilder {
     padding: 50px 0;
     display: flex;
@@ -174,21 +176,29 @@ flex-wrap: nowrap;
     
    
 }
-.column2 img{
+.mediagrid img{
     filter: grayscale(100%);
 	transition: .3s ease-in-out;
 }
 
-.column2:hover img{	filter: grayscale(0);
+.mediagrid:hover img{	filter: grayscale(0);
 }
 
-.column2{
+.mediagrid{
     flex:33%;
     max-width: 33%;
     padding: 0;
     
 }
-.column2 img {
+
+@media only screen and (max-width: 600px) {
+  .mediagrid {
+   flex:100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+.mediagrid img {
     vertical-align: middle;
     width: 100%;
     
@@ -200,3 +210,15 @@ a:hover {
     text-decoration: underline;
 }
 
+footer{
+    width: 100%;
+    background-color: black;
+    color:white;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 50px
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 10px
+}
