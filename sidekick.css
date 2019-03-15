@@ -543,7 +543,8 @@ align-items: flex-end
 		filter: grayscale(0);
 }
 .vakt .slider{
-		height: 150;
+	
+		border: 10px solid;
 		border-radius: 50%;
 		box-sizing: border-box;
 }
