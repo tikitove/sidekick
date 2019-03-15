@@ -18,13 +18,18 @@ mellangrön: #a6cfc7 */
 
 /* header*/
 header  {
-background:  no-repeat center center fixed; 
+background: no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
     padding-bottom: 100px;
 
+}
+@media screen and (max-width: 992px) {
+    header {
+        background-attachment: scroll;
+    }
 }
 .hem {
     background-image: url(img/bird2.jpg);
@@ -86,6 +91,7 @@ background-size: cover;
   background:#646363;
 	margin: 0px;
 	position: sticky;
+	position:-webkit-sticky;
 	top: 0;
 	z-index: 5;
 	box-shadow: 0 5px 8px rgba(0,0,0,.2); 
