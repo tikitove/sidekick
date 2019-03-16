@@ -18,9 +18,9 @@ mellangrön: #a6cfc7 */
 
 /* header*/
 header  {
-background: no-repeat center center fixed;
-background-size: cover;
-    padding-bottom: 100px;
+	background: no-repeat center center fixed;
+	background-size: cover;
+  padding-bottom: 100px;
 
 }
 @media screen and (max-width: 992px) {
@@ -54,7 +54,7 @@ background-size: cover;
 
 .galleri {
     background-image: url(img/tikicouple.jpg);
-    padding: 200px 0px 400px 0px;
+    padding: 50px 0px 600px 0px;
 		
 }
     .galleri h1 {
@@ -181,11 +181,11 @@ h3{
 h4{
   font-family: 'Roboto Slab', 'serif'; 
 	font-weight: 700;
-  font-size: 3.5em;
+  font-size: 3.3em;
   text-transform: uppercase;
 	text-align: center;
 	padding: 0px;	
-	text-shadow: 0px 0px 15px #646363;
+	text-shadow: 0px 0px 10px #646363;
 	margin-top: -35px;
 	color: #ffffff;
 	position: relative;
@@ -243,7 +243,7 @@ a:hover {
 		padding-top: 0px;
 }
 #start h1{
-		padding-top: 200px;
+		padding-top: 150px;
 		position: relative;
 		margin-top: -400px;
 }
@@ -253,14 +253,6 @@ a:hover {
 		height:400px;
 		padding: 0px;
 		overflow: hidden;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-		-ms-flex-wrap: no;
-		    flex-wrap: no
 }
 
 /* wrappers */
@@ -325,7 +317,6 @@ a:hover {
 /* avdelare */
 
 .pattern {
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -371,22 +362,26 @@ a:hover {
 }
 #skrivbord{
 		background-image: url(img/skrivbord.JPEG);
-   	margin-top: 0; 
+		padding: 300px 0;
+		width:100%;
+		height: 100%;
+   	margin: 0; 
 }
 
 
 #boll {
-    height: 300px;
-    margin-top: -170px;
+    height: 250px;
+    margin-top: -150px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-bottom: 3px solid #646363;
     overflow: hidden;
 }
 @media only screen and (max-width: 650px) {
-  img.boll {
+  #boll {
     height: 150px;
     margin-top: -100px;
+		overflow: hidden;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -452,6 +447,7 @@ a:hover {
 .tikitove {
     display: block;
     max-width: 640px;
+		padding-top: 30px;
     margin: 0 auto !important;
 }
 
@@ -461,7 +457,11 @@ a:hover {
 		padding-right: 3%;
     float: right;
 }
-
+@media screen and (max-width: 650px){
+		.tikitove h1{
+				clear:both;
+		}
+}
 /* bilder */
 
 .spin {
@@ -686,19 +686,19 @@ a:hover {
 @keyframes slide{
   10%{
     -webkit-transform:translateX(0);
-            transform:translateX(0);
+           	transform:translateX(0);
   }
   15%, 30%{
     -webkit-transform:translateX(-300px);
-            transform:translateX(-300px);
+    transform:translateX(-300px);
   }
   35%, 50%{
     -webkit-transform:translateX(-600px);
-            transform:translateX(-600px);
+    transform:translateX(-600px);
   }
   55%, 70%{
     -webkit-transform:translateX(-900px);
-            transform:translateX(-900px);
+    transform:translateX(-900px);
   }
   75%, 90%{
     -webkit-transform:translateX(0);
