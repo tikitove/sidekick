@@ -6,6 +6,7 @@ html body {
     font-size: 14px;
     padding: 0px;
     margin: 0px auto;
+		overflow-x: hidden;
 
 }
 
@@ -698,7 +699,8 @@ input:checked + .switch .toggle:before {
 	height: 300px;
   display:block;	
 }
-.slider:hover img{	-webkit-filter: grayscale(0);	filter: grayscale(0);
+.slider:hover img{	
+		-webkit-filter: grayscale(0);	filter: grayscale(0);
 }
 
 .slider{
