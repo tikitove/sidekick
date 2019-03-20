@@ -494,7 +494,7 @@ input:checked + .switch .toggle:before {
 /* avdelare */
 
 .pattern {
-    background-repeat: no-repeat;
+		background-repeat: no-repeat;
     background-size: cover;
 		position: relative;
 		padding: 200px 0 ;
@@ -502,9 +502,11 @@ input:checked + .switch .toggle:before {
 		}
 
 #kraken{
-		background-image: url(img/kraken.png);
+		background: url(img/kraken.png) center top no-repeat;
+    background-size: cover;
 		padding: 300px 0;
-		margin-top: -150px;
+		margin-top: -15%;
+		
 		
 }
 #krabba img{
@@ -512,13 +514,13 @@ input:checked + .switch .toggle:before {
 		width:100%;
 		margin-top: -170px;
 		margin-bottom: -100px;
+		position: relative;
 }
 
 #thorn{
 		background-image: url(img/girlang.png);
 		margin-top:-10%;
 		padding: 15% 0px;
-		background-size: cover;
 }
 
 #floral{
@@ -544,8 +546,7 @@ input:checked + .switch .toggle:before {
 #skepp{
 		background-image: url(img/skepp.png);
 		padding-top:400px ; 
-		margin-bottom: -300px;
-		background-size: 100% auto;
+		margin-bottom: -30%;
 		
 }
 #skrivbord{
