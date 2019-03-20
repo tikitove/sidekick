@@ -41,6 +41,22 @@ header  {
      background-attachment: scroll;
     }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+		header{
+			background-attachment: scroll;	
+		}
+}
+
+
+@media screen and (min-device-width : 375px) 
+		and (max-device-width : 667px) {
+		header{ 
+		background-attachment: scroll;}}
+
 		/* ipad*/
 @media only screen 
 and (min-device-width : 768px) 
@@ -278,7 +294,7 @@ a:hover {
 .banner{
 		position: -webkit-sticky;
 		position: sticky;
-		top: 15%;
+		top: 35%;
 		z-index: 4;
 
 }
@@ -301,7 +317,7 @@ a:hover {
 .switch {
   position: -webkit-sticky;
   position: sticky;
-	top:15%;
+	top:35%;
 	float: right;
 	right: 4px;
   display: block;
@@ -383,6 +399,11 @@ input:checked + .switch .toggle:before {
 		top:120%;
 		z-index: 3;	
 		max-width: 650px,
+}
+@media screen and (min-device-width : 375px) 
+		and (max-device-width : 667px) {
+		#start{ 
+		top: 150%}
 }
 #start h1{
 		padding: 0px;
@@ -489,6 +510,14 @@ input:checked + .switch .toggle:before {
 		position: relative;
 		background-image: url(img/floral.png);
 		margin-top:-10%;
+
+}
+
+#eye{
+		position: relative;
+		background-image: url(img/EYE2.png);
+		background-size: contain;
+		
 
 }
 
