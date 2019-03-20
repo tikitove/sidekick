@@ -50,6 +50,23 @@ header h3{
     text-align: center;
     text-transform: uppercase;
 }
+@media screen and (max-width: 650px) {
+    .desktop {
+        display: none;
+    }
+}
+@media screen and (min-width: 650px) {
+    .mobile {
+        display: none;
+    }
+}
+.mobile h1 {
+		line-height: 0.9;	
+}
+.mobile h3{
+		margin: 0px -60px -10px 0px
+}
+
 #hem header{
     background-image: url(img/bird2.jpg);
     padding: 200px 0px 400px 0px;
