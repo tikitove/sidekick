@@ -41,6 +41,14 @@ header  {
      background-attachment: scroll;
     }
 }
+		/* ipad*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+		header {
+     background-attachment: scroll;
+    }
+}
 
 header h1{
 		font-family: 'Playfair Display SC', georgia, serif;
@@ -270,7 +278,7 @@ a:hover {
 .banner{
 		position: -webkit-sticky;
 		position: sticky;
-		top: 7%;
+		top: 15%;
 		z-index: 4;
 
 }
@@ -279,12 +287,12 @@ a:hover {
 		width: 65px;
 		height: 44px;
 		position: absolute;
-		right:5px;
+		right:0px;
 		display: block;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
+		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
-		border-bottom-right-radius: 5px;
 		-webkit-box-shadow: 5px 5px 8px rgba(0,0,0,.2);
 		        box-shadow: 5px 5px 8px rgba(0,0,0,.2);
 }
@@ -293,9 +301,9 @@ a:hover {
 .switch {
   position: -webkit-sticky;
   position: sticky;
-	top:7%;
+	top:15%;
 	float: right;
-	right: 11px;
+	right: 4px;
   display: block;
   width: 52px;
   height: 26px;
@@ -372,7 +380,7 @@ input:checked + .switch .toggle:before {
 		position: absolute;
 		left:10%;
 		right: 10%;
-		top: 158%;
+		top:120%;
 		z-index: 3;	
 		max-width: 650px,
 }
