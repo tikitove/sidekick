@@ -414,12 +414,30 @@ input:checked + .switch .toggle:before {
 		margin-top: 0px;
 }
 .mandala{
-		position: relative;
     width: 100%;
 		height:400px;
 		padding: 0px;
 		overflow: hidden;
-		z-index: -1;
+}
+
+
+.mandala #fla{
+		float:left;
+		position: relative;
+		margin-left: -400px;
+    width: 800px;
+    height: 800px;
+		filter: grayscale(100%);
+	
+}
+.mandala #fla2{
+		float:right;
+		position: relative;
+		margin-right: -400px;
+    width: 800px;
+    height: 800px;
+		filter: grayscale(100%);
+	
 }
 
 /* wrappers */
@@ -478,7 +496,7 @@ input:checked + .switch .toggle:before {
 .pattern {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+		position: relative;
 		padding: 200px 0 ;
 		margin:0;
 		}
@@ -491,34 +509,36 @@ input:checked + .switch .toggle:before {
 }
 #krabba img{
 		display: block;
-		position: relative;
 		width:100%;
 		margin-top: -170px;
 		margin-bottom: -100px;
+}
 
-}
-#sommar {
-		background-image: url(img/vacay.JPG);
-		padding:00px 0;
-}
 #thorn{
-		background-image: url(img/thorn.png);
-		position: relative;
-		margin-top:-25%;
+		background-image: url(img/girlang.png);
+		margin-top:-10%;
+		padding: 15% 0px;
+		background-size: cover;
 }
+
 #floral{
-		position: relative;
 		background-image: url(img/floral.png);
 		margin-top:-10%;
 
 }
 
-#eye{
-		position: relative;
-		background-image: url(img/EYE2.png);
-		background-size: contain;
-		
 
+#eye{
+	  background-position: right center;
+		background-image: url(img/EYE2.png);
+		background-size: cover;
+		padding: 0
+}
+		#eye img{
+				box-sizing: border-box;	
+				width: 300px;
+				margin: 50px;
+				margin-left: 20%
 }
 
 #skepp{
@@ -564,9 +584,7 @@ input:checked + .switch .toggle:before {
     max-width: 100%;
 		margin:0;
 		}
-		.wrapper{
-		padding: 0;
-		}
+
 }
 
 #under  {
@@ -639,6 +657,7 @@ input:checked + .switch .toggle:before {
 		margin-bottom: -400px;
     width: 800px;
     height: 800px;
+		z-index: -1;
     -webkit-animation:spin 50s linear infinite;
             animation:spin 50s linear infinite;
 }
@@ -740,7 +759,7 @@ input:checked + .switch .toggle:before {
 		#flamingo1{
 				position: relative;
 				margin-bottom: -450px;
-				margin-left: -450px;
+				margin-left: -350px;
 				z-index: 3
 		}
 }
