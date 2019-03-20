@@ -10,7 +10,6 @@ html body {
 
 }
 
-
 /* colors
 grå: #646363;     
 rosa: #F9E8F7
@@ -19,17 +18,27 @@ lila:# 7d3b6d
 mintgrön: #d6ede8
 mellangrön: #a6cfc7 */
 
+
+
 /* header*/
+
 header  {
+	height: 100vh;
 	background: no-repeat center center fixed;
 	background-size: cover;
-	width:auto;
-			
-
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: center;
+	    align-self: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 650px) {
     header {
-        background-attachment: scroll;
+     background-attachment: scroll;
     }
 }
 
@@ -55,6 +64,29 @@ header h3{
         display: none;
     }
 }
+
+.desktop{
+		-webkit-box-flex:50%;
+		    -ms-flex:50%;
+		        flex:50%;		
+		padding-top: 200px
+}
+
+#galleri .desktop{
+		-webkit-box-flex:50%;
+		    -ms-flex:50%;
+		        flex:50%;		
+		padding-top: 90px
+}
+
+.mobile{
+		-webkit-box-flex:50%;
+		    -ms-flex:50%;
+		        flex:50%;
+		padding-top: 100px
+		
+}
+
 @media screen and (min-width: 650px) {
     .mobile {
         display: none;
@@ -69,7 +101,6 @@ header h3{
 
 #hem header{
     background-image: url(img/bird2.jpg);
-    padding: 200px 0px 400px 0px;
 		background-position: center top;
 		
 }
@@ -83,9 +114,9 @@ header h3{
 
 #galleri header {
     background-image: url(img/tikicouple.jpg);
-    padding: 50px 0px 600px 0px;
 		
 }
+
 		#galleri header h1 {
     color: #e0a3d9;
      }
