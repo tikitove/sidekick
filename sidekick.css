@@ -137,8 +137,7 @@ header h3{
 }
 
 #galleri header {
-    background-image: url(img/tikicouple.jpg);
-		
+    background-image: url(img/tikicouple.jpg);		
 }
 
 		#galleri header h1 {
@@ -150,8 +149,9 @@ header h3{
 }
 #sidekick header {
     background-image: url(img/himmelSV.jpg);
+		display: block;
+		overflow: hidden;
 }
-		
 
  /* meny */
 
@@ -226,21 +226,18 @@ h1{
 	text-align: center;
 	line-height: 1;
 	padding: 0px;	
+
 }
 
 h2{
   font-family: 'Playfair Display SC', georgia, serif;
     text-transform: uppercase;
-    font-style: italic;
     font-size: 1.5em;
-    color: #7d3b6d;
     text-align: center;
     padding: 0 ;
+		margin: 0;
 }
 
-h2 a {  text-decoration: none;
-color: #7d3b6d
-}
 
 h3{
   font-family: 'Playfair Display SC', georgia, serif;
@@ -272,14 +269,12 @@ p {
 
 .quote {
 		max-width: 500px;
-    margin: 0px auto 50px !important;
+    margin: 0px auto 50px;
 		padding: 0px;
-		margin: 0;
 		
 }
-.quote p, h3{
-		margin: 0;
-		text-align: center;
+.quote p{
+		margin-top: 0;
 }
 
 a {  
@@ -290,7 +285,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+p a{
+		font-family: 'roboto slab';
+}
 .banner{
 		position: -webkit-sticky;
 		position: sticky;
@@ -389,7 +386,7 @@ input:checked + .switch .toggle:before {
 
 .intro {
     max-width: 650px;
-    margin: 30px auto 200px !important;		
+    margin: 30px auto 200px;		
     }
 
 #start {
@@ -398,21 +395,20 @@ input:checked + .switch .toggle:before {
 		right: 10%;
 		top:120%;
 		z-index: 3;	
-		max-width: 650px,
+		max-width: 650px;
+		margin: 0 auto;
 }
+
 @media screen and (min-device-width : 375px) 
 		and (max-device-width : 667px) {
 		#start{ 
 		top: 150%}
 }
-#start h1{
-		padding: 0px;
-		margin: 0
-		
+
+#start h1, p{
+		margin: 0;
 }
-#start p{
-		margin-top: 0px;
-}
+
 .mandala{
     width: 100%;
 		height:400px;
@@ -450,7 +446,8 @@ input:checked + .switch .toggle:before {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0px;
-		
+		margin: 0 auto;
+
 }
 
 .wrapper3{
@@ -462,16 +459,6 @@ input:checked + .switch .toggle:before {
 
 }
 
-.wrapper4{
-    background: #646363;
-    color: #ffffff;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    padding: 0px;
-		margin: 0 auto;
-
-}
 
 .wrapper5{
 		background-image: url(img/papper.JPG);
@@ -482,8 +469,8 @@ input:checked + .switch .toggle:before {
 }
 
 .wrapper6{
-    color: #646363;
     width: 100%;
+		padding: 30px 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 		margin: 0 auto;}
@@ -533,7 +520,6 @@ input:checked + .switch .toggle:before {
 #eye{
 	  background-position: right center;
 		background-image: url(img/EYE2.png);
-		background-size: cover;
 		padding: 0
 }
 		#eye img{
@@ -551,10 +537,7 @@ input:checked + .switch .toggle:before {
 }
 #skrivbord{
 		background-image: url(img/skrivbord.JPEG);
-		padding: 200px 0;
-		width:100%;
-		height: 100%;
-   	margin: 0; 
+
 }
 
 
@@ -632,10 +615,9 @@ input:checked + .switch .toggle:before {
 
 
 .tikitove {
-    display: block;
     max-width: 640px;
 		padding-top: 30px;
-    margin: 0 auto !important;
+    margin: 0 auto;
 }
 
 #icon{
@@ -643,14 +625,16 @@ input:checked + .switch .toggle:before {
     margin-top: -250px;
 		padding-right: 3%;
     float: right;
+		position: relative;
 }
 @media screen and (max-width: 650px){
 		.tikitove h1{
 				clear:both;
 		}
 }
-/* bilder */
 
+
+/* bilder */
 
 .spin {
     position: relative;
@@ -671,8 +655,8 @@ input:checked + .switch .toggle:before {
 		width:100%;
 }
 
- .triptyk {
-		 max-width: 1000px;
+.triptyk {
+		max-width: 1000px;
 		display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -706,7 +690,6 @@ input:checked + .switch .toggle:before {
 /* mediagrid */
 .bilder {
 		max-width: 1000px;
-    padding: 0;
 		margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -778,24 +761,16 @@ input:checked + .switch .toggle:before {
 		    -ms-flex-pack: center;
 		        justify-content: center;
 		text-align: center;
-		
-		
+			
 }
-.vakt .slider img{
-		-webkit-filter: grayscale(0);
-		        filter: grayscale(0);
-}
+
 .vakt .slider{
-	
 		border: 15px solid #646363;
 		border-radius: 50%;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
 }
-.vakt img{
-		-webkit-filter: grayscale(0);
-		        filter: grayscale(0);	
-}
+
 #flamingo2{
 		height: 200px;
 		width:auto;
@@ -813,16 +788,19 @@ input:checked + .switch .toggle:before {
 /*   slider */
 
 .slider img{
-	-webkit-filter: grayscale(100%);
-	        filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	-o-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;	
 	width: 300px;
 	height: 300px;
   display:block;	
 }
-.slider:hover img{	
+
+#hem .slider img{
+			-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+} 
+#hem .slider:hover img{	
 		-webkit-filter: grayscale(0);	filter: grayscale(0);
 }
 
@@ -899,7 +877,7 @@ input:checked + .switch .toggle:before {
 footer{
     width: 100%;
     background-color: black;
-    color:white;
+    color: white;
     text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -969,14 +947,8 @@ footer ul li{
 
 }
 
-.popup h2 {
-  margin-top: 0;
-  color: #646363;
-	font-style: normal;
-}
 .popup a{  
-	font-family: century gothic, georgia, serif;
-	text-decoration: none;
+	font-family: 'roboto slab';
 	color: #646363
 }
 
@@ -986,12 +958,12 @@ footer ul li{
 }
 .popup .close {
   position: absolute;
-  top: -30px;
-  right: -10px;
+  top: -50px;
+  right: -20px;
   -webkit-transition: all 200ms;
   -o-transition: all 200ms;
   transition: all 200ms;
-  font-size: 50px;
+  font-size: 5em;
   font-weight: bold;
   text-decoration: none;
   color: #ffff;
