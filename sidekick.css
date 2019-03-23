@@ -3,18 +3,17 @@
 html body {
   	font-family: 'Roboto Slab', serif;
     color:#646363;
-    font-size: 14px;
     padding: 0px;
-    margin: 0px auto;
+    margin: 0px;
 		overflow-x: hidden;
 
 }
 
 /* colors
-grå: #646363;     
+grå: #646363;
+ljusgrå: #9a9a9a
 rosa: #F9E8F7
 mellanrosa:#e0a3d9
-lila:# 7d3b6d
 mintgrön: #d6ede8
 mellangrön: #a6cfc7 */
 
@@ -72,16 +71,15 @@ header h1{
     font-size: 6em;
 		line-height: normal;
 		text-align: center;
-    margin: 0;
+    margin: 0 auto;
     overflow: hidden;
 }
 header h3{
 		font-family: 'Playfair Display SC', georgia, serif;
     font-size: 1.5em;
     font-style: normal;
-    margin:20px 0px -30px -20px;
+    margin: 0px 0px -45px -35px;
     text-align: center;
-    text-transform: uppercase;
 }
 @media screen and (max-width: 650px) {
     .desktop {
@@ -120,7 +118,7 @@ header h3{
 		line-height: 0.9;	
 }
 .mobile h3{
-		margin: 0px -60px -10px 0px
+		margin: 0px -60px -25px 0px
 }
 
 #hem header{
@@ -152,7 +150,15 @@ header h3{
 		display: block;
 		overflow: hidden;
 }
-
+#mig header {
+	    background-image: url(img/flamingosar.JPEG)
+}
+#mig header h1{
+	color: #d6ede8;
+}
+#mig header h3{
+	color: #d6ede8;
+}
  /* meny */
 
 #meny {
@@ -211,6 +217,8 @@ header h3{
   }
   #meny input:checked ~ ul {
     display: block;
+		  background:#9a9a9a;
+
   }
 }
 
@@ -222,28 +230,28 @@ h1{
 	font-weight: 700;
   font-size: 2.5em;
 	font-style: italic;
-  text-transform: uppercase;
 	text-align: center;
 	line-height: 1;
 	padding: 0px;	
+	max-width: 650px;
+	margin: 0px auto 20px;
+		
 
 }
 
 h2{
   font-family: 'Playfair Display SC', georgia, serif;
-    text-transform: uppercase;
     font-size: 1.5em;
     text-align: center;
-    padding: 0 ;
-		margin: 0;
+    padding: 0;
+		margin: 0 auto;
 }
 
 
 h3{
   font-family: 'Playfair Display SC', georgia, serif;
     font-size: 1.3em;
-    margin: 0;
-    text-transform: uppercase;
+    margin: 0 auto 20px;
     font-style: italic;
     text-align: center; 
 }
@@ -260,21 +268,23 @@ h4{
 	position: relative;
 		z-index: 2;
 }
-p { 
+
+p{
 	max-width: 550px;
-	margin: 20px auto;
-	padding: 0px 20px;
+	margin: 0 auto !important;
 	text-align: center;
+	padding: 0px 20px 20px;
+
 }
+
 
 .quote {
 		max-width: 500px;
     margin: 0px auto 50px;
-		padding: 0px;
 		
 }
-.quote p{
-		margin-top: 0;
+.quote h3{
+	margin-bottom: 0px;
 }
 
 a {  
@@ -295,7 +305,7 @@ p a{
 		z-index: 4;
 
 }
-.växla{
+.etikett{
 		background-color: #9a9a9a;
 		width: 65px;
 		height: 44px;
@@ -452,7 +462,7 @@ input:checked + .switch .toggle:before {
 
 .wrapper3{
 		background: #d6ede8;
-    width: 100%;
+    max-width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0px;
@@ -540,7 +550,15 @@ input:checked + .switch .toggle:before {
 
 }
 
-
+#sol{
+	background-image: url(img/sol.png);
+	padding: 0px;
+}
+#sol img{
+	left: 25%;
+	padding: 0;
+	margin-top: -160px;
+} 
 #boll {
     height: 250px;
     margin-top: -150px;
@@ -568,7 +586,9 @@ input:checked + .switch .toggle:before {
     max-width: 100%;
 		margin:0;
 		}
-
+#under	.column1 img{
+			padding-top: 80px
+	}
 }
 
 #under  {
@@ -615,9 +635,11 @@ input:checked + .switch .toggle:before {
 
 
 .tikitove {
-    max-width: 640px;
 		padding-top: 30px;
     margin: 0 auto;
+}
+.tikitove p{
+	text-align: left;
 }
 
 #icon{
