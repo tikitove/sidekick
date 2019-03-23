@@ -281,10 +281,11 @@ p{
 .quote {
 		max-width: 500px;
     margin: 0px auto 50px;
+	  line-height: 1;
 		
 }
 .quote h3{
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 a {  
