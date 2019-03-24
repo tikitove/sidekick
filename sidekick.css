@@ -15,7 +15,6 @@ ljusgrå: #9a9a9a
 rosa: #F9E8F7
 mellanrosa:#e0a3d9
 mintgrön: #d6ede8
-mellangrön: #a6cfc7 */
 
 
 
@@ -258,7 +257,7 @@ h3{
 h4{
   font-family: 'Roboto Slab', 'serif'; 
 	font-weight: 700;
-  font-size: 3.3em;
+  font-size: 3em;
   text-transform: uppercase;
 	text-align: center;
 	padding: 0px;	
@@ -279,9 +278,10 @@ p{
 
 
 .quote {
-		max-width: 500px;
+		max-width: 550px;
     margin: 0px auto 50px;
 	  line-height: 1;
+		padding: 0 20px;
 		
 }
 .quote h3{
@@ -622,16 +622,18 @@ input:checked + .switch .toggle:before {
     width: 400px;
 }
 .column1 ul {
-    list-style: none;
-    max-width:400px}
+    max-width:400px;
+list-style: none;}
+
 
 #bubbla{
 		background: #ffff;
     border-radius: 40px;
     text-align: center;
-    line-height: 1;    
+    line-height: 1.2;    
 		margin: auto 30px;
     padding: 20px;
+		text-align: left;
 }
 
 
@@ -904,12 +906,12 @@ footer{
     text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 10px 50px
+    padding: 10px 50px;
 }
 footer ul li{
 		font-family: 'Playfair Display SC', georgia, serif;
     display: inline-block;
-    margin: 0 10px
+		padding: 0 10px;
 }
 
 /* popup */
