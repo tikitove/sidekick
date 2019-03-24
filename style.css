@@ -430,21 +430,18 @@ p {
 
 #boll {
 	height: 250px;
-	margin-top: -150px;
+	padding: 0 0 0 50px;
+	margin: -150px 0 20px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border-bottom: 3px solid #646363;
 	overflow: hidden;
 }
 
-#bollplank {
-	padding: 0px 50px;
-}
 
 
 #under .column1 img {
 	width: 350px;
-	padding-top: 80px;
 }
 
 #under {
@@ -1013,6 +1010,9 @@ footer ul li {
 	.vakt .slider{
 			border-radius: 0%;
 
+	}
+	#krabba img{
+		margin-bottom: 20px;
 	}
 	#flamingo2 {
 		display: none;
