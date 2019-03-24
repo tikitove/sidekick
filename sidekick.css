@@ -131,6 +131,7 @@ header h3 {
 	z-index: 8;
 	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+	text-align: center;
 }
 
 #meny label,
@@ -181,6 +182,9 @@ header h3 {
 /* mobil meny */
 
 @media screen and (max-width: 650px) {
+	#meny {
+		text-align: left;
+	}
 	#meny label {
 		display: inline-block;
 	}
