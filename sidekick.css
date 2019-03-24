@@ -1,27 +1,20 @@
 
 
-/* Tove Svensson / tove@mossbylund.se*/
+/* Tove Svensson / tove@mossbylund.se */
 
 html body {
 	font-family: 'Roboto Slab', serif;
 	color: #646363;
 	padding: 0px;
 	margin: 0px;
-	font-variant-ligatures: none;
+	-webkit-font-variant-ligatures: none;
+	        font-variant-ligatures: none;
 }
 
 .overflow{
 		overflow-x: hidden !important;
 
 }
-
-/* colors
-grå: #646363;
-ljusgrå: #9a9a9a
-rosa: #F9E8F7
-mellanrosa:#e0a3d9
-mintgrön: #d6ede8
-
 
 
 /* header*/
@@ -40,41 +33,6 @@ header {
 	justify-content: center;
 }
 
-@media screen and (max-width: 650px) {
-	header {
-		background-attachment: scroll;
-	}
-	.overflow{
-		overflow-x: hidden !important;
-}
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-	header {
-		background-attachment: scroll;
-	}
-	.overflow{
-		overflow-x: hidden !important;
-}
-}
-
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-	header {
-		background-attachment: scroll;
-	}
-		.overflow{
-		overflow-x: hidden !important;
-}
-}
-
-
-/* ipad*/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	header {
-		background-attachment: scroll;
-	}
-}
 
 header h1 {
 	font-family: 'Playfair Display SC', georgia, serif;
@@ -94,11 +52,7 @@ header h3 {
 	text-align: center;
 }
 
-@media screen and (max-width: 650px) {
-	.desktop {
-		display: none;
-	}
-}
+
 
 .desktop {
 	-webkit-box-flex: 50%;
@@ -118,11 +72,7 @@ header h3 {
 	padding-top: 100px
 }
 
-@media screen and (min-width: 650px) {
-	.mobile {
-		display: none;
-	}
-}
+
 
 .mobile h1 {
 	line-height: 0.9;
@@ -439,11 +389,6 @@ input:checked+.switch .toggle:before {
 	margin: 0 auto;
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-	#start {
-		top: 150%
-	}
-}
 
 #start h1,
 p {
@@ -463,7 +408,8 @@ p {
 	margin-left: -400px;
 	width: 800px;
 	height: 800px;
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
 }
 
 .mandala #fla2 {
@@ -472,7 +418,8 @@ p {
 	margin-right: -400px;
 	width: 800px;
 	height: 800px;
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
 }
 
 
@@ -560,7 +507,8 @@ p {
 }
 
 #eye img {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 300px;
 	margin: 50px;
 	margin-left: 20%
@@ -568,8 +516,8 @@ p {
 
 #skepp {
 	background-image: url(img/skepp.png);
-	padding-top: 400px;
-	margin-bottom: -30%;
+	background-size: 100%;
+	padding: 10% 0;
 }
 
 #skrivbord {
@@ -595,27 +543,15 @@ p {
 	overflow: hidden;
 }
 
-@media only screen and (max-width: 650px) {
-	#boll {
-		height: 150px;
-		margin-top: -100px;
-		overflow: hidden;
-	}
-}
-
-@media only screen and (max-width: 650px) {
-	.row {
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-	.column1 {
+.column1 {
 		-webkit-box-flex: 100%;
 		-ms-flex: 100%;
 		flex: 100%;
 		max-width: 100%;
 		margin: 0;
 	}
-	#under .column1 img {
+
+#under .column1 img {
 		padding-top: 80px;
 	}
 }
@@ -684,11 +620,7 @@ p {
 	position: relative;
 }
 
-@media screen and (max-width: 650px) {
-	.tikitove h1 {
-		clear: both;
-	}
-}
+
 
 
 /* bilder */
@@ -740,16 +672,6 @@ p {
 	margin-top: -50%;
 }
 
-@media only screen and (max-width: 650px) {
-	.triptyk img {
-		margin-top: 0;
-	}
-	.triptyk .first {
-		margin-top: -50%;
-		padding-top: 20px;
-	}
-}
-
 #color img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
@@ -792,37 +714,12 @@ p {
 	max-width: 30%;
 	padding: 5px;
 }
-
-@media only screen and (max-width: 650px) {
-	.mediagrid {
-		-webkit-box-flex: 100%;
-		-ms-flex: 100%;
-		flex: 100%;
-		max-width: 70%;
-		padding: 5px 0px 0px 0px;
-	}
-}
-
 .mediagrid img {
 	vertical-align: middle;
 	width: 100%;
 }
 
-@media only screen and (max-width: 650px) {
-	.vakt {
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-	#flamingo2 {
-		display: none;
-	}
-	#flamingo1 {
-		position: relative;
-		margin-bottom: -450px;
-		margin-left: -350px;
-		z-index: 3
-	}
-}
+
 
 .vakt {
 	display: -webkit-box;
@@ -887,6 +784,8 @@ p {
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -969,11 +868,12 @@ footer {
 	text-align: center;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 10px 50px;
+	padding: 10px 50px 50px;
 }
 
 footer ul {
 	padding: 0;
+	margin: 0 auto;
 }
 
 footer ul li {
@@ -989,7 +889,8 @@ footer ul li {
 .box {
 	width: 40%;
 	margin: 0 auto;
-	padding: 35px;
+	padding: 35px 0;
+	text-align: center;
 }
 
 .button {
@@ -1076,7 +977,22 @@ footer ul li {
 	overflow: auto;
 }
 
+
+/* @media */
+
+@media screen and (min-width: 650px) {
+	.mobile {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 650px) {
+	header {
+		background-attachment: scroll;
+	}
+	.overflow{
+		overflow-x: hidden !important;
+}
 	.box {
 		width: 80%;
 	}
@@ -1086,5 +1002,92 @@ footer ul li {
 		width: 350px;
 		padding: 100px 50px 50px;
 	}
+	.mediagrid {
+		-webkit-box-flex: 100%;
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 70%;
+		padding: 5px 0px 0px 0px;
+	}
+	.vakt {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	#flamingo2 {
+		display: none;
+	}
+	#flamingo1 {
+		position: relative;
+		margin-bottom: -450px;
+		margin-left: -350px;
+		z-index: 3
+	}
+		.triptyk img {
+		margin-top: 0;
+	}
+	.triptyk .first {
+		margin-top: -50%;
+		padding-top: 20px;
+	}
+	
+	.tikitove h1 {
+		clear: both;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	#boll {
+		height: 150px;
+		margin-top: -100px;
+		overflow: hidden;
+	}
+	.row {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+	header {
+		background-attachment: scroll;
+	}
+	.overflow{
+		overflow-x: hidden !important;
+}
+		#start {
+		top: 150%
+	}
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	header {
+		background-attachment: scroll;
+	}
+	.overflow{
+		overflow-x: hidden !important;
+}
+	#start {
+		top: 150%
+	}
+}
+
+
+/* ipad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	header {
+		background-attachment: scroll;
+	}
+	.overflow{
+		overflow-x: hidden !important;
+}
+}
+
+
+/* colors
+grå: #646363;
+ljusgrå: #9a9a9a
+rosa: #F9E8F7
+mellanrosa:#e0a3d9
+mintgrön: #d6ede8
