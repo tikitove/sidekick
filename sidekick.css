@@ -10,8 +10,8 @@ html body {
 	font-variant-ligatures: none;
 }
 
-.content{
-		overflow-x: hidden;
+.overflow{
+		overflow-x: hidden !important;
 
 }
 
@@ -50,12 +50,18 @@ header {
 	header {
 		background-attachment: scroll;
 	}
+	.overflow{
+		overflow-x: hidden !important;
+}
 }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
 	header {
 		background-attachment: scroll;
 	}
+		.overflow{
+		overflow-x: hidden !important;
+}
 }
 
 
@@ -155,7 +161,7 @@ header h3 {
 }
 
 #mig header {
-	background-image: url(img/strandben.jpg)
+	background-image: url(img/sn%C3%A4ckor.jpg)
 }
 
 #mig header h1 {
@@ -281,7 +287,7 @@ h4 {
 	line-height: 1;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 0px;
+	padding: 0 10px;
 	text-shadow: 0px 0px 10px #646363;
 	margin-top: -35px;
 	color: #ffffff;
@@ -981,7 +987,6 @@ footer ul li {
 	width: 40%;
 	margin: 0 auto;
 	padding: 35px;
-	text-align: center;
 }
 
 .button {
