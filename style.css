@@ -49,14 +49,18 @@ header h3 {
 	text-align: center;
 }
 
+
 .desktop {
 	-webkit-box-flex: 50%;
 	-ms-flex: 50%;
 	flex: 50%;
-	padding-top: 200px
+	margin: auto;	
+
 }
 
+
 #galleri .desktop {
+	margin: 0;
 	padding-top: 90px;
 }
 
@@ -64,7 +68,8 @@ header h3 {
 	-webkit-box-flex: 50%;
 	-ms-flex: 50%;
 	flex: 50%;
-	padding-top: 100px
+	margin: auto;	
+	
 }
 
 .mobile h1 {
@@ -379,7 +384,7 @@ p {
 	display: block;
 	width: 100%;
 	max-width: 1000px;
-	margin: -170px auto -100px;
+	margin: -100px auto;
 	position: relative;
 }
 
@@ -1012,7 +1017,7 @@ footer ul li {
 
 	}
 	#krabba img{
-		margin-bottom: 20px;
+		margin:-90px auto -50px
 	}
 	#flamingo2 {
 		display: none;
