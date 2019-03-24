@@ -44,6 +44,9 @@ header {
 	header {
 		background-attachment: scroll;
 	}
+	.overflow{
+		overflow-x: hidden !important;
+}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
