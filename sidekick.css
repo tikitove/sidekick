@@ -150,7 +150,7 @@ header h3{
 		overflow: hidden;
 }
 #mig header {
-	    background-image: url(img/flamingosar.JPEG)
+	    background-image: url(img/strandben.jpg)
 }
 #mig header h1{
 	color: #d6ede8;
@@ -172,15 +172,18 @@ header h3{
 }
 #meny label, #meny ul, #meny li {
   display: inline-block;
+	
 }
 #meny label, #hamburger {
   display: none;
+	
 }
 #meny label {
   color: #d6ede8;
   font-style: normal;
   font-size: 1.5em;
   padding: 10px;
+	
 }
 
 /* meny innehåll */
@@ -207,6 +210,7 @@ header h3{
 @media screen and (max-width: 650px){
   #meny label {
     display: inline-block;
+		
   }
   #meny ul li {
     display: block;
@@ -588,7 +592,7 @@ input:checked + .switch .toggle:before {
 		margin:0;
 		}
 #under	.column1 img{
-			padding-top: 80px
+			padding-top: 80px;
 	}
 }
 
@@ -776,9 +780,8 @@ list-style: none;}
 		display:-webkit-box;
 		display:-ms-flexbox;
 		display:flex;
-		max-width: 700px;
 		margin: -200px auto 0;
-		padding: 30px 0 30px;
+		padding: 30px 0;
 		-webkit-box-align: end;
 		    -ms-flex-align: end;
 		        align-items: flex-end;
@@ -815,7 +818,6 @@ list-style: none;}
 .slider img{
 	width: 300px;
 	height: 300px;
-  display:block;	
 }
 
 #hem .slider img{
@@ -830,10 +832,12 @@ list-style: none;}
 }
 
 .slider{
-	margin:0px auto ;
+	margin:0px auto;
 	width:300px;
   height:300px;
   overflow:hidden;
+	display:flex;
+
 }
 
 .slider-content{
@@ -842,7 +846,6 @@ list-style: none;}
   list-style:none;
   display:-webkit-box;
   display:-ms-flexbox;
-  display:flex;
   -webkit-animation: slide 10s ease-in-out infinite;
           animation: slide 10s ease-in-out infinite;
 
