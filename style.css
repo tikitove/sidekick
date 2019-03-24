@@ -104,6 +104,7 @@ header h3 {
 #sidekick header {
 	background-image: url(img/himmelSV.jpg);
 	display: block;
+	padding-top: 52px;
 	overflow: hidden;
 }
 
