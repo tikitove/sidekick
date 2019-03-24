@@ -447,6 +447,7 @@ p {
 
 #under .column1 img {
 	width: 350px;
+	position: relative;
 }
 
 #under {
