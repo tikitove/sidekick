@@ -1009,6 +1009,10 @@ footer ul li {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
+	.vakt .slider{
+			border-radius: 0%;
+
+	}
 	#flamingo2 {
 		display: none;
 	}
