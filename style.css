@@ -392,7 +392,7 @@ p {
 #eye {
 	background-position: right center;
 	background-image: url(img/EYE2.png);
-	padding: 0
+	padding: 0;
 }
 
 #eye img {
@@ -552,6 +552,31 @@ p {
 	justify-content: center;
 }
 
+.mediagrid {
+	-webkit-box-flex: 30%;
+	-ms-flex: 30%;
+	flex: 30%;
+	max-width: 30%;
+	padding: 5px;
+}
+
+.mediagrid img {
+	vertical-align: middle;
+	width: 100%;
+}
+.spegel{
+		-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.mandala {
+	width: 100%;
+	height: 400px;
+	padding: 0px;
+	overflow: hidden;
+}
+
 #hem .mediagrid img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -565,18 +590,6 @@ p {
 	filter: grayscale(0);
 }
 
-.mediagrid {
-	-webkit-box-flex: 30%;
-	-ms-flex: 30%;
-	flex: 30%;
-	max-width: 30%;
-	padding: 5px;
-}
-
-.mediagrid img {
-	vertical-align: middle;
-	width: 100%;
-}
 
 .vakt {
 	display: -webkit-box;
@@ -614,18 +627,9 @@ p {
 	width: auto;
 	margin-right: -170px;
 	z-index: 8;
-	-webkit-transform: scaleX(-1);
-	-ms-transform: scaleX(-1);
-	transform: scaleX(-1);
+
 }
 
-
-.mandala {
-	width: 100%;
-	height: 400px;
-	padding: 0px;
-	overflow: hidden;
-}
 
 .mandala #fla {
 	float: left;
