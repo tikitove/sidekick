@@ -8,13 +8,11 @@ html body {
 	padding: 0px;
 	margin: 0px;
 	-webkit-font-variant-ligatures: none;
-	        font-variant-ligatures: none;
+	font-variant-ligatures: none;
 }
 
-.overflow{
+.overflow {
 	overflow-x: hidden !important;
-width:100%;
-	
 }
 
 
@@ -34,7 +32,6 @@ header {
 	justify-content: center;
 }
 
-
 header h1 {
 	font-family: 'Playfair Display SC', georgia, serif;
 	font-style: italic;
@@ -53,8 +50,6 @@ header h3 {
 	text-align: center;
 }
 
-
-
 .desktop {
 	-webkit-box-flex: 50%;
 	-ms-flex: 50%;
@@ -72,8 +67,6 @@ header h3 {
 	flex: 50%;
 	padding-top: 100px
 }
-
-
 
 .mobile h1 {
 	line-height: 0.9;
@@ -115,7 +108,7 @@ header h3 {
 }
 
 #mig header {
-	background-image: url(img/strandben.jpg)
+	background-image: url(img/sn%C3%A4ckor.jpg)
 }
 
 #mig header h1 {
@@ -134,7 +127,6 @@ header h3 {
 	margin: 0px;
 	position: fixed;
 	width: 100%;
-	position: -webkit-sticky;
 	top: 0;
 	z-index: 8;
 	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
@@ -144,7 +136,6 @@ header h3 {
 #meny label,
 #meny ul,
 #meny li {
-	
 	display: inline-block;
 }
 
@@ -389,7 +380,6 @@ input:checked+.switch .toggle:before {
 	margin: 0 auto;
 }
 
-
 #start h1,
 p {
 	margin: 0;
@@ -409,7 +399,7 @@ p {
 	width: 800px;
 	height: 800px;
 	-webkit-filter: grayscale(100%);
-	        filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .mandala #fla2 {
@@ -419,7 +409,7 @@ p {
 	width: 800px;
 	height: 800px;
 	-webkit-filter: grayscale(100%);
-	        filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 
@@ -508,7 +498,7 @@ p {
 
 #eye img {
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	width: 300px;
 	margin: 50px;
 	margin-left: 20%
@@ -544,11 +534,11 @@ p {
 }
 
 .column1 {
-		-webkit-box-flex: 50%;
-		-ms-flex: 50%;
-		flex: 50%;
-		margin: 0;
-	}
+	-webkit-box-flex: 50%;
+	-ms-flex: 50%;
+	flex: 50%;
+	margin: 0;
+}
 
 .row {
 	display: -webkit-box;
@@ -573,10 +563,9 @@ p {
 }
 
 #under .column1 img {
-	width:350px;
+	width: 350px;
 	padding-top: 80px;
-
-	}
+}
 
 #under {
 	-webkit-box-align: end;
@@ -586,10 +575,11 @@ p {
 
 #bubbla .column1 ul {
 	max-width: 400px;
-	list-style:inside;
+	list-style: inside;
 	padding: 0;
 }
-#bubbla .column1 ul  li{
+
+#bubbla .column1 ul li {
 	padding: 5px 0;
 }
 
@@ -601,7 +591,6 @@ p {
 	margin: auto 30px;
 	padding: 30px;
 	text-align: left;
-	
 }
 
 .tikitove {
@@ -620,8 +609,6 @@ p {
 	float: right;
 	position: relative;
 }
-
-
 
 
 /* bilder */
@@ -710,12 +697,11 @@ p {
 	max-width: 30%;
 	padding: 5px;
 }
+
 .mediagrid img {
 	vertical-align: middle;
 	width: 100%;
 }
-
-
 
 .vakt {
 	display: -webkit-box;
@@ -990,11 +976,10 @@ footer ul li {
 	header {
 		background-attachment: scroll;
 	}
-	.overflow{
+	.overflow {
 		overflow-x: hidden !important;
-		width:100%;
-
-}
+		width: 100%;
+	}
 	.box {
 		width: 80%;
 	}
@@ -1024,18 +1009,16 @@ footer ul li {
 		margin-left: -350px;
 		z-index: 3
 	}
-		.triptyk img {
+	.triptyk img {
 		margin-top: 0;
 	}
 	.triptyk .first {
 		margin-top: -50%;
 		padding-top: 20px;
 	}
-	
 	.tikitove h1 {
 		clear: both;
 	}
-	
 	.desktop {
 		display: none;
 	}
@@ -1054,10 +1037,10 @@ footer ul li {
 	header {
 		background-attachment: scroll;
 	}
-	.overflow{
+	.overflow {
 		overflow-x: hidden !important;
-}
-		#start {
+	}
+	#start {
 		top: 150%
 	}
 }
@@ -1066,9 +1049,9 @@ footer ul li {
 	header {
 		background-attachment: scroll;
 	}
-	.overflow{
+	.overflow {
 		overflow-x: hidden !important;
-}
+	}
 	#start {
 		top: 150%
 	}
@@ -1081,9 +1064,9 @@ footer ul li {
 	header {
 		background-attachment: scroll;
 	}
-	.overflow{
+	.overflow {
 		overflow-x: hidden !important;
-}
+	}
 }
 
 
@@ -1096,3 +1079,4 @@ mellanrosa:#e0a3d9
 mintgrön: #d6ede8
 
 */
+
