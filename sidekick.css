@@ -258,6 +258,7 @@ h4{
   font-family: 'Roboto Slab', 'serif'; 
 	font-weight: 700;
   font-size: 3em;
+	line-height: 1;
   text-transform: uppercase;
 	text-align: center;
 	padding: 0px;	
@@ -510,8 +511,8 @@ input:checked + .switch .toggle:before {
 #krabba img{
 		display: block;
 		width:100%;
-		margin-top: -170px;
-		margin-bottom: -100px;
+		max-width: 1000px;
+		margin: -170px auto -100px;
 		position: relative;
 }
 
@@ -556,9 +557,8 @@ input:checked + .switch .toggle:before {
 	padding: 0px;
 }
 #sol img{
-	left: 25%;
-	padding: 0;
-	margin-top: -160px;
+	width: 400px;
+	margin-top: -140px;
 } 
 #boll {
     height: 250px;
@@ -900,15 +900,19 @@ list-style: none;}
 
 /* footer */
 footer{
-    width: 100%;
+	display: block;
     background-color: black;
     color: white;
-    text-align: center;
+	text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 10px 50px;
 }
+footer ul{
+	padding: 0;
+}
 footer ul li{
+	list-style: none;
 		font-family: 'Playfair Display SC', georgia, serif;
     display: inline-block;
 		padding: 0 10px;
